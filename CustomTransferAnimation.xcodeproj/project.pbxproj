@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A35EC76B1D3DC9D500452CDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A35EC76A1D3DC9D500452CDA /* main.m */; };
+		A35EC76E1D3DC9D500452CDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A35EC76D1D3DC9D500452CDA /* AppDelegate.m */; };
+		A35EC7711D3DC9D500452CDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35EC7701D3DC9D500452CDA /* ViewController.m */; };
+		A35EC7741D3DC9D500452CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35EC7721D3DC9D500452CDA /* Main.storyboard */; };
+		A35EC7761D3DC9D500452CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35EC7751D3DC9D500452CDA /* Assets.xcassets */; };
+		A35EC7791D3DC9D500452CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35EC7771D3DC9D500452CDA /* LaunchScreen.storyboard */; };
+		A35EC7841D3DC9D500452CDA /* CustomTransferAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A35EC7831D3DC9D500452CDA /* CustomTransferAnimationTests.m */; };
+		A35EC78F1D3DC9D500452CDA /* CustomTransferAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A35EC78E1D3DC9D500452CDA /* CustomTransferAnimationUITests.m */; };
+		A35EC7A11D3DCA4200452CDA /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = A35EC79E1D3DCA4200452CDA /* Animator.m */; };
+		A35EC7A21D3DCA4200452CDA /* TransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A35EC7A01D3DCA4200452CDA /* TransitionDelegate.m */; };
+		A35EC7A71D3DCA7200452CDA /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35EC7A41D3DCA7200452CDA /* MyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A35EC7801D3DC9D500452CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A35EC75E1D3DC9D500452CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A35EC7651D3DC9D500452CDA;
+			remoteInfo = CustomTransferAnimation;
+		};
+		A35EC78B1D3DC9D500452CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A35EC75E1D3DC9D500452CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A35EC7651D3DC9D500452CDA;
+			remoteInfo = CustomTransferAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A35EC7661D3DC9D500452CDA /* CustomTransferAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransferAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35EC76A1D3DC9D500452CDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A35EC76C1D3DC9D500452CDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A35EC76D1D3DC9D500452CDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A35EC76F1D3DC9D500452CDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		A35EC7701D3DC9D500452CDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		A35EC7731D3DC9D500452CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A35EC7751D3DC9D500452CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A35EC7781D3DC9D500452CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A35EC77A1D3DC9D500452CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35EC77F1D3DC9D500452CDA /* CustomTransferAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransferAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35EC7831D3DC9D500452CDA /* CustomTransferAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransferAnimationTests.m; sourceTree = "<group>"; };
+		A35EC7851D3DC9D500452CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35EC78A1D3DC9D500452CDA /* CustomTransferAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransferAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35EC78E1D3DC9D500452CDA /* CustomTransferAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransferAnimationUITests.m; sourceTree = "<group>"; };
+		A35EC7901D3DC9D500452CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35EC79D1D3DCA4200452CDA /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		A35EC79E1D3DCA4200452CDA /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+		A35EC79F1D3DCA4200452CDA /* TransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionDelegate.h; sourceTree = "<group>"; };
+		A35EC7A01D3DCA4200452CDA /* TransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionDelegate.m; sourceTree = "<group>"; };
+		A35EC7A31D3DCA7200452CDA /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = ../MyViewController.h; sourceTree = "<group>"; };
+		A35EC7A41D3DCA7200452CDA /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = ../MyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A35EC7631D3DC9D500452CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35EC77C1D3DC9D500452CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35EC7871D3DC9D500452CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A35EC75D1D3DC9D500452CDA = {
+			isa = PBXGroup;
+			children = (
+				A35EC7681D3DC9D500452CDA /* CustomTransferAnimation */,
+				A35EC7821D3DC9D500452CDA /* CustomTransferAnimationTests */,
+				A35EC78D1D3DC9D500452CDA /* CustomTransferAnimationUITests */,
+				A35EC7671D3DC9D500452CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A35EC7671D3DC9D500452CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A35EC7661D3DC9D500452CDA /* CustomTransferAnimation.app */,
+				A35EC77F1D3DC9D500452CDA /* CustomTransferAnimationTests.xctest */,
+				A35EC78A1D3DC9D500452CDA /* CustomTransferAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A35EC7681D3DC9D500452CDA /* CustomTransferAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A35EC76C1D3DC9D500452CDA /* AppDelegate.h */,
+				A35EC76D1D3DC9D500452CDA /* AppDelegate.m */,
+				A35EC79C1D3DCA1D00452CDA /* custom */,
+				A35EC7A91D3DCA7A00452CDA /* controller */,
+				A35EC7691D3DC9D500452CDA /* Supporting Files */,
+			);
+			path = CustomTransferAnimation;
+			sourceTree = "<group>";
+		};
+		A35EC7691D3DC9D500452CDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A35EC7721D3DC9D500452CDA /* Main.storyboard */,
+				A35EC7751D3DC9D500452CDA /* Assets.xcassets */,
+				A35EC7771D3DC9D500452CDA /* LaunchScreen.storyboard */,
+				A35EC77A1D3DC9D500452CDA /* Info.plist */,
+				A35EC76A1D3DC9D500452CDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A35EC7821D3DC9D500452CDA /* CustomTransferAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A35EC7831D3DC9D500452CDA /* CustomTransferAnimationTests.m */,
+				A35EC7851D3DC9D500452CDA /* Info.plist */,
+			);
+			path = CustomTransferAnimationTests;
+			sourceTree = "<group>";
+		};
+		A35EC78D1D3DC9D500452CDA /* CustomTransferAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A35EC78E1D3DC9D500452CDA /* CustomTransferAnimationUITests.m */,
+				A35EC7901D3DC9D500452CDA /* Info.plist */,
+			);
+			path = CustomTransferAnimationUITests;
+			sourceTree = "<group>";
+		};
+		A35EC79C1D3DCA1D00452CDA /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				A35EC79D1D3DCA4200452CDA /* Animator.h */,
+				A35EC79E1D3DCA4200452CDA /* Animator.m */,
+				A35EC79F1D3DCA4200452CDA /* TransitionDelegate.h */,
+				A35EC7A01D3DCA4200452CDA /* TransitionDelegate.m */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		A35EC7A91D3DCA7A00452CDA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A35EC76F1D3DC9D500452CDA /* ViewController.h */,
+				A35EC7701D3DC9D500452CDA /* ViewController.m */,
+				A35EC7A31D3DCA7200452CDA /* MyViewController.h */,
+				A35EC7A41D3DCA7200452CDA /* MyViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A35EC7651D3DC9D500452CDA /* CustomTransferAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35EC7931D3DC9D500452CDA /* Build configuration list for PBXNativeTarget "CustomTransferAnimation" */;
+			buildPhases = (
+				A35EC7621D3DC9D500452CDA /* Sources */,
+				A35EC7631D3DC9D500452CDA /* Frameworks */,
+				A35EC7641D3DC9D500452CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTransferAnimation;
+			productName = CustomTransferAnimation;
+			productReference = A35EC7661D3DC9D500452CDA /* CustomTransferAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A35EC77E1D3DC9D500452CDA /* CustomTransferAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35EC7961D3DC9D500452CDA /* Build configuration list for PBXNativeTarget "CustomTransferAnimationTests" */;
+			buildPhases = (
+				A35EC77B1D3DC9D500452CDA /* Sources */,
+				A35EC77C1D3DC9D500452CDA /* Frameworks */,
+				A35EC77D1D3DC9D500452CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A35EC7811D3DC9D500452CDA /* PBXTargetDependency */,
+			);
+			name = CustomTransferAnimationTests;
+			productName = CustomTransferAnimationTests;
+			productReference = A35EC77F1D3DC9D500452CDA /* CustomTransferAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A35EC7891D3DC9D500452CDA /* CustomTransferAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A35EC7991D3DC9D500452CDA /* Build configuration list for PBXNativeTarget "CustomTransferAnimationUITests" */;
+			buildPhases = (
+				A35EC7861D3DC9D500452CDA /* Sources */,
+				A35EC7871D3DC9D500452CDA /* Frameworks */,
+				A35EC7881D3DC9D500452CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A35EC78C1D3DC9D500452CDA /* PBXTargetDependency */,
+			);
+			name = CustomTransferAnimationUITests;
+			productName = CustomTransferAnimationUITests;
+			productReference = A35EC78A1D3DC9D500452CDA /* CustomTransferAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A35EC75E1D3DC9D500452CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hcd;
+				TargetAttributes = {
+					A35EC7651D3DC9D500452CDA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A35EC77E1D3DC9D500452CDA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A35EC7651D3DC9D500452CDA;
+					};
+					A35EC7891D3DC9D500452CDA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A35EC7651D3DC9D500452CDA;
+					};
+				};
+			};
+			buildConfigurationList = A35EC7611D3DC9D500452CDA /* Build configuration list for PBXProject "CustomTransferAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A35EC75D1D3DC9D500452CDA;
+			productRefGroup = A35EC7671D3DC9D500452CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A35EC7651D3DC9D500452CDA /* CustomTransferAnimation */,
+				A35EC77E1D3DC9D500452CDA /* CustomTransferAnimationTests */,
+				A35EC7891D3DC9D500452CDA /* CustomTransferAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A35EC7641D3DC9D500452CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35EC7791D3DC9D500452CDA /* LaunchScreen.storyboard in Resources */,
+				A35EC7761D3DC9D500452CDA /* Assets.xcassets in Resources */,
+				A35EC7741D3DC9D500452CDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35EC77D1D3DC9D500452CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35EC7881D3DC9D500452CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A35EC7621D3DC9D500452CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35EC7A71D3DCA7200452CDA /* MyViewController.m in Sources */,
+				A35EC7A11D3DCA4200452CDA /* Animator.m in Sources */,
+				A35EC7711D3DC9D500452CDA /* ViewController.m in Sources */,
+				A35EC7A21D3DCA4200452CDA /* TransitionDelegate.m in Sources */,
+				A35EC76E1D3DC9D500452CDA /* AppDelegate.m in Sources */,
+				A35EC76B1D3DC9D500452CDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35EC77B1D3DC9D500452CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35EC7841D3DC9D500452CDA /* CustomTransferAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A35EC7861D3DC9D500452CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35EC78F1D3DC9D500452CDA /* CustomTransferAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A35EC7811D3DC9D500452CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A35EC7651D3DC9D500452CDA /* CustomTransferAnimation */;
+			targetProxy = A35EC7801D3DC9D500452CDA /* PBXContainerItemProxy */;
+		};
+		A35EC78C1D3DC9D500452CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A35EC7651D3DC9D500452CDA /* CustomTransferAnimation */;
+			targetProxy = A35EC78B1D3DC9D500452CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A35EC7721D3DC9D500452CDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A35EC7731D3DC9D500452CDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A35EC7771D3DC9D500452CDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A35EC7781D3DC9D500452CDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A35EC7911D3DC9D500452CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A35EC7921D3DC9D500452CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A35EC7941D3DC9D500452CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomTransferAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snackman.CustomTransferAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A35EC7951D3DC9D500452CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomTransferAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snackman.CustomTransferAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A35EC7971D3DC9D500452CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomTransferAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snackman.CustomTransferAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTransferAnimation.app/CustomTransferAnimation";
+			};
+			name = Debug;
+		};
+		A35EC7981D3DC9D500452CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomTransferAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snackman.CustomTransferAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTransferAnimation.app/CustomTransferAnimation";
+			};
+			name = Release;
+		};
+		A35EC79A1D3DC9D500452CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomTransferAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snackman.CustomTransferAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomTransferAnimation;
+			};
+			name = Debug;
+		};
+		A35EC79B1D3DC9D500452CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomTransferAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snackman.CustomTransferAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomTransferAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A35EC7611D3DC9D500452CDA /* Build configuration list for PBXProject "CustomTransferAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35EC7911D3DC9D500452CDA /* Debug */,
+				A35EC7921D3DC9D500452CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A35EC7931D3DC9D500452CDA /* Build configuration list for PBXNativeTarget "CustomTransferAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35EC7941D3DC9D500452CDA /* Debug */,
+				A35EC7951D3DC9D500452CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A35EC7961D3DC9D500452CDA /* Build configuration list for PBXNativeTarget "CustomTransferAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35EC7971D3DC9D500452CDA /* Debug */,
+				A35EC7981D3DC9D500452CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A35EC7991D3DC9D500452CDA /* Build configuration list for PBXNativeTarget "CustomTransferAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35EC79A1D3DC9D500452CDA /* Debug */,
+				A35EC79B1D3DC9D500452CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A35EC75E1D3DC9D500452CDA /* Project object */;
+}
