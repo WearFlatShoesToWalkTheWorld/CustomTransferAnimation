@@ -55,6 +55,13 @@
         [self.shapeLayer addAnimation:self.revealAnimation forKey:@"animation"];
         
         toVC.view.layer.mask = self.shapeLayer;
+        
+        
+//          [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
+//            toVC.view.frame = container.bounds;
+//        } completion:^(BOOL finished) {
+//            [self.transitionContext completeTransition:finished];  //一定要加上转场结束
+//        }];
     
     }else if(self.animationType == AnimationTypeDismiss){
         
